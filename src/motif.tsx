@@ -90,8 +90,8 @@ export function motif<
 					...assignInlineVars(vars),
 				},
 				className: clsx(
-					sprinkles(sprinkled),
 					config.baseClassName,
+					sprinkles(sprinkled),
 					styleClassNames,
 					className,
 				),
