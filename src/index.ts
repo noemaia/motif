@@ -13,18 +13,5 @@ export type {
 	SprinklesProps,
 } from './motif.js';
 
-export { Box, Button, Primitive } from './primitives.js';
-export type { PrimitiveProps } from './primitives.js';
-
-export { Flex } from './flex.js';
-export type { PrimitiveFlexProps } from './flex.js';
-
-export { Grid } from './grid.js';
-export type { PrimitiveGridProps } from './grid.js';
-
-export type { SprinkledProperties } from './primitives.css.js';
-
-export { createContext } from './context.js';
-
 export { composeRender } from './compose-render.js';
 export type { ComposedPrimitive, RenderProp } from './compose-render.js';
